@@ -11,8 +11,8 @@
 
 .appGlass{
 display: grid;
-height: 97%;
-width: 97%;
+height: 95%;
+width: 95%;
 border-radius: 20px;
 background-color: rgb(196, 238, 247);
 overflow: hidden;
