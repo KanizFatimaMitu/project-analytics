@@ -1,0 +1,30 @@
+[
+    {
+        "year": 2020,
+        "growth" : 10
+    },
+    {
+        "year": 2021,
+        "growth" : 20
+    },
+    {
+        "year": 2022,
+        "growth" : 30
+    },
+    {
+        "year": 2023,
+        "growth" : 60
+    },
+    {
+        "year": 2026,
+        "growth" : 50
+    },
+    {
+        "year": 2028,
+        "growth" : 40
+    },
+    {
+        "year": 2040,
+        "growth" : 25
+    }
+]

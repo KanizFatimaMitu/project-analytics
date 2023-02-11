@@ -1,4 +1,5 @@
 import './App.css';
+import Charts from './Components/Charts/Charts';
 import SidebarMenu from './Components/SidebarMenu/SidebarMenu';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <div className='appGlass'>
      <SidebarMenu></SidebarMenu>
+     <Charts></Charts>
       </div>
     </div>
   );

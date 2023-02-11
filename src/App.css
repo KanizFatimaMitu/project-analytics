@@ -16,5 +16,6 @@ width: 95%;
 border-radius: 20px;
 background-color: rgb(196, 238, 247);
 overflow: hidden;
-grid-template-columns: 20rem auto ;
+grid-template-columns: 20rem auto 18rem ;
+
 }
