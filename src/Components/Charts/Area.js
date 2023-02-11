@@ -5,10 +5,10 @@ const Area = () => {
 
     const [state, setState] = useState({
         series: [{
-            name: 'series1',
+            name: 'online sell',
             data: [31, 40, 28, 51, 42, 109, 100]
         }, {
-            name: 'series2',
+            name: 'offline sell',
             data: [11, 32, 45, 32, 34, 52, 41]
         }],
         options: {
@@ -17,7 +17,7 @@ const Area = () => {
                 type: 'area'
             },
             dataLabels: {
-                enabled: false
+                enabled: true
             },
             stroke: {
                 curve: 'smooth'

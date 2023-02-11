@@ -28,29 +28,45 @@ const Dounuts = () => {
     },[])
     return (
         <div>
-          <h1>Dounut chart
-          </h1>
             <ReactApexChart
                 
             type= 'donut'
-            width={500}
+            width={400}
             height={300}
             series= {year}
             options= {{
                 labels: growth,
+                plotOptions: {
+                  pie: {
+                    startAngle: -90,
+                    endAngle: 270
+                  }
+                },
+                dataLabels: {
+                  enabled: true
+                },
+                fill: {
+                  type: 'gradient',
+                },
+                legend: {
+                  formatter: function(val, opts) {
+                    return val + " - " + opts.w.globals.series[opts.seriesIndex]
+                  }
+                },
                 responsive: [{
-                     breakpoint: 480,
-                     options: {
-                      chart: {
-                        width: 200
-                      },
-                      legend: {
-                        position: 'bottom'
-                      }
+                  breakpoint: 480,
+                  options: {
+                    chart: {
+                      width: 200
+                    },
+                    legend: {
+                      position: 'bottom'
                     }
-                  }]
-                  
-            }} />
+                  }
+                }]
+               
+                }}
+             />
 
         </div>
     );

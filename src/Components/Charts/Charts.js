@@ -11,8 +11,13 @@ const Charts = () => {
 
             <Line></Line>
             <div class="grid grid-cols-2 gap-4 mt-2">
-                <Radar ></Radar>
-                <Area></Area>
+                {/* <Radar ></Radar> */}
+                <div className='mr-[-6]'>
+                    <Dounuts></Dounuts>
+                </div>
+                <div>
+                    <Area></Area>
+                </div>
             </div>
         </div>
     );
