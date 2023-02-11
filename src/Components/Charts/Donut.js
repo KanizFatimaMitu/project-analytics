@@ -28,6 +28,8 @@ const Dounuts = () => {
     },[])
     return (
         <div>
+          <h1>Dounut chart
+          </h1>
             <ReactApexChart
                 
             type= 'donut'

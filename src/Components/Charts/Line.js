@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import ReactApexChart from 'react-apexcharts';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBarsProgress } from '@fortawesome/free-solid-svg-icons'
 
 const Line = () => {
     const [state, setState] = useState({
@@ -41,7 +43,7 @@ const Line = () => {
                 type: 'gradient',
                 gradient: {
                     shade: 'dark',
-                    gradientToColors: ['#00E7FF'],
+                    gradientToColors: ['#54E346'],
                     shadeIntensity: 1,
                     type: 'horizontal',
                     opacityFrom: 1,
@@ -60,7 +62,10 @@ const Line = () => {
 })
 return (
     <div>
-        <h1 className='font-bold text-xl'>Dashboard</h1>
+       <div className='flex justify-center items-center mt-4 ml-4'>
+      <span className='mr-2 text-success-content'> <FontAwesomeIcon icon={faBarsProgress} /></span>
+        <h1 className='font-bold text-xl text-success-content'>Dashboard</h1>
+       </div>
         <ReactApexChart
             options={state.options}
             series={state.series}
