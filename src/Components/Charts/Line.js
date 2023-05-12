@@ -7,7 +7,7 @@ const Line = () => {
     const [state, setState] = useState({
         series: [{
             name: 'Sales',
-            data: [4, 3, 10, 9, 29, 19, 22, 9, 12, 7, 19, 5, 13, 9, 17, 2, 7, 5]
+            data: [14, 3, 10, 9, 29, 19, 22, 9, 12, 7, 19, 5, 17, 12, 37, 9, 19, 5]
         }],
         options: {
             chart: {
@@ -23,7 +23,7 @@ const Line = () => {
             },
             xaxis: {
                 type: 'datetime',
-                categories: ['1/11/2000', '2/11/2000', '3/11/2000', '4/11/2000', '5/11/2000', '6/11/2000', '7/11/2000', '8/11/2000', '9/11/2000', '10/11/2000', '11/11/2000', '12/11/2000', '1/11/2001', '2/11/2001', '3/11/2001', '4/11/2001', '5/11/2001', '6/11/2001'],
+                categories: ['3/1/2023', '3/5/2023', '3/10/2023', '3/15/2023', '3/20/2023', '3/25/2023', '3/30/2023', '4/5/2023', '4/15/2023', '4/20/2023', '4/25/2023', '4/30/2023', '5/5/2023', '5/15/2023', '5/20/2023', '5/25/2023', '5/30/2023', '6/5/2023'],
                 tickAmount: 10,
                 labels: {
                     formatter: function (value, timestamp, opts) {
@@ -32,7 +32,7 @@ const Line = () => {
                 }
             },
             title: {
-                
+
                 align: 'left',
                 style: {
                     fontSize: "16px",
@@ -58,22 +58,22 @@ const Line = () => {
         },
 
 
-    
-})
-return (
-    <div>
-       <div className='flex justify-center items-center mt-4 ml-4'>
-      <span className='mr-2 text-success-content'> <FontAwesomeIcon icon={faBarsProgress} /></span>
-        <h1 className='font-bold text-xl text-success-content'>Dashboard</h1>
-       </div>
-        <ReactApexChart
-            options={state.options}
-            series={state.series}
-            type="area"
-            height={300}
-            width={800} />
-    </div>
-);
+
+    })
+    return (
+        <div>
+            <div className='flex justify-center items-center mt-4 ml-4'>
+                <span className='mr-2 text-success-content'> <FontAwesomeIcon icon={faBarsProgress} /></span>
+                <h1 className='font-bold text-xl text-success-content'>Monthly sales</h1>
+            </div>
+            <ReactApexChart
+                options={state.options}
+                series={state.series}
+                type="area"
+                height={300}
+                width={800} />
+        </div>
+    );
 };
 
 export default Line;
