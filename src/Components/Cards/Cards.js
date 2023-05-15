@@ -36,8 +36,7 @@ const Cards = () => {
             <div class="card w-60  h-15 text-primary-content flex justify-center items-center">
                 <div class="card-body">
                 <button class="btn btn-info">See more details</button>
-               
-                   
+   
                 </div>
             </div>
 
