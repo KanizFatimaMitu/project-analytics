@@ -1,16 +1,21 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Cards from './Components/Cards/Cards';
-import Charts from './Components/Charts/Charts';
-import SidebarMenu from './Components/SidebarMenu/SidebarMenu';
+import Dashboard from './Pages/Dashboard';
+import Analytics from './Pages/Analytics';
+import Team from './Pages/Team';
+import Reviews from './Pages/Reviews';
+import Exist from './Pages/Exist';
 
 function App() {
   return (
     <div className="App">
-      <div className='appGlass'>
-     <SidebarMenu></SidebarMenu>
-     <Charts></Charts>
-     <Cards></Cards>
-      </div>
+     <Routes>
+      <Route path="/" element={<Dashboard></Dashboard>}></Route>
+      <Route path="/analytics" element={<Analytics></Analytics>}></Route>
+      <Route path="/team" element={<Team></Team>}></Route>
+      <Route path="/reviews" element={<Reviews></Reviews>}></Route>
+      <Route path="/exist" element={<Exist></Exist>}></Route>
+     </Routes>
     </div>
   );
 }

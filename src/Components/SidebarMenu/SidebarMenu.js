@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBarsProgress, faAreaChart, faUserFriends, faTasks, faSignOut, faChessQueen } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from 'react-router-dom';
 
 const SidebarMenu = () => {
     return (
@@ -12,34 +13,34 @@ const SidebarMenu = () => {
             <div>
                 <ul class="menu text-success-content font-bold flex justify-center items-start w-56 p-2 rounded-box ml-8 mt-12">
                     <li>
-                        <a>
+                        <NavLink to='/'>
                             <FontAwesomeIcon icon={faBarsProgress} />
                             Dashboard
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a>
+                        <NavLink to='/analytics'>
                             <FontAwesomeIcon icon={faAreaChart} />
                             Analytics
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a>
+                        <NavLink to='/team'>
                             <FontAwesomeIcon icon={faUserFriends} />
                             Team
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a>
+                        <NavLink to='/reviews'>
                             <FontAwesomeIcon icon={faTasks} />
                             Task Reviews
-                        </a>
+                        </NavLink>
                     </li>
                     <li className='mt-64'>
-                        <a>
+                        <NavLink to='/exist'>
                             Exist
                            <FontAwesomeIcon icon={faSignOut} />
-                        </a>
+                        </NavLink>
                     </li>
 
 

@@ -1,0 +1,10 @@
+.appGlass{
+    display: grid;
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+    background-color: rgb(159, 225, 178);
+    overflow: hidden;
+    grid-template-columns: 20rem auto 18rem ;
+    
+    }
