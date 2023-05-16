@@ -1,8 +1,11 @@
 import React from 'react';
+import './Shared.css'
+import SidebarMenu from '../Components/SidebarMenu/SidebarMenu';
 
 const Reviews = () => {
     return (
-        <div>
+        <div className='appGlass'>
+            <SidebarMenu></SidebarMenu>
             <h1>Customer reviews </h1>
         </div>
     );
