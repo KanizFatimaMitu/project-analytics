@@ -3,7 +3,7 @@ import member from '../../images/pic1.jpg'
 
 const CEO = () => {
     return (
-        <div class="hero h-80 bg-base-200">
+        <div class="hero h-[350px] bg-base-200">
             <div class="hero-content flex-col lg:flex-row">
                 <img src={member} class="max-w-sm rounded-lg shadow-2xl" />
                 <div>
