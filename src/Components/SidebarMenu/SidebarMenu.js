@@ -8,7 +8,7 @@ const SidebarMenu = () => {
         <div className='bg-success m-4 rounded-xl shadow-lg '>
             <h1 className='flex justify-center items-center mt-12 mb-8'>
                 <span className='text-2xl font-bold text-primary-content'><FontAwesomeIcon icon={faChessQueen} /></span>
-                <span className='text-xl ml-4 font-bold text-success-content'>Shapers</span>
+                <NavLink to='/exist'><span className='text-xl ml-4 font-bold text-success-content'>Shapers</span> </NavLink>
             </h1>
             <div>
                 <ul class="menu text-success-content font-bold flex justify-center items-start w-56 p-2 rounded-box ml-8 mt-12">

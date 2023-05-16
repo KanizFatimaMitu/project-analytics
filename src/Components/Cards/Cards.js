@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from 'react-router-dom';
 
 const Cards = () => {
     return (
@@ -15,7 +16,7 @@ const Cards = () => {
             <div class="card w-60 h-30 bg-primary text-primary-content">
                 <div class="card-body">
                     <h2 class="card-title"><span><FontAwesomeIcon className='text-secondary-focus' icon={faUpRightFromSquare} /></span>New Sell Posts</h2>
-                    <p className='font-bold text-xl text-primary-content'>18</p>
+                    <p className='font-bold text-xl text-primary-content'>32</p>
                 </div>
             </div>
 
@@ -35,7 +36,7 @@ const Cards = () => {
 
             <div class="card w-60  h-15 text-primary-content flex justify-center items-center">
                 <div class="card-body">
-                <button class="btn btn-info">See more details</button>
+                <button class="btn btn-info"><NavLink to='/analytics'>See more details </NavLink></button>
    
                 </div>
             </div>
