@@ -12,7 +12,7 @@ const CEO = () => {
                 <div>
                     <h1 class="text-4xl font-bold">MEET THE TEAM</h1>
                     <br />
-                    <h1 class="text-2xl  font-bold"><FontAwesomeIcon className='text-primary-focus mr-4' icon={faUserFriends} />Mr. Subrota Biswas</h1>
+                    <h1 class="text-2xl  font-bold"><FontAwesomeIcon className='text-primary-focus mr-4' icon={faUserFriends} />Kaniz Fatima</h1>
                     <br />
                     <p><FontAwesomeIcon className='text-primary-focus mr-2 font-bold ' icon={faCheckCircle} />Founder Director</p>
                     <p>young talented and creative designer with a bulk volume of project management & handover experience with local & multinational companies.</p>
