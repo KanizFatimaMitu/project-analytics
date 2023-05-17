@@ -6,14 +6,14 @@ import ReactApexChart from 'react-apexcharts';
 const Colum = () => {
     const [state, setState] = useState({
         series: [{
-            name: 'Net Profit',
+            name: 'Boys',
             data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
         }, {
-            name: 'Revenue',
+            name: 'Girls',
             data: [76, 85, 101, 98, 87, 105, 91, 114, 94]
         }, {
-            name: 'Free Cash Flow',
-            data: [35, 41, 36, 26, 45, 48, 52, 53, 41]
+            name: 'Unkown',
+            data: [31, 41, 36, 26, 59, 48, 52, 15, 35]
         }],
         options: {
             chart: {
@@ -36,11 +36,11 @@ const Colum = () => {
                 colors: ['transparent']
             },
             xaxis: {
-                categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+                categories: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar'],
             },
             yaxis: {
                 title: {
-                    text: '$ (thousands)'
+                    text: '"People"'
                 }
             },
             fill: {
