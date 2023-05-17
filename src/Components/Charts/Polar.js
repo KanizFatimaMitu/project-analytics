@@ -3,13 +3,13 @@ import ReactApexChart from 'react-apexcharts';
 
 const Polar = () => {
     const [state, setState] = useState({
-        series: [42, 47, 52, 58, 65],
+        series: [22, 38, 40],
         options: {
             chart: {
                 width: 380,
                 type: 'polarArea'
             },
-            labels: ['Rose A', 'Rose B', 'Rose C', 'Rose D', 'Rose E'],
+            labels: ['Watch', 'Perfume', 'Cosmetic'],
             fill: {
                 opacity: 1
             },
@@ -44,6 +44,9 @@ const Polar = () => {
     })
     return (
         <div>
+            <small className='font-bold'>Product demand</small>
+            <br/>
+            
             <ReactApexChart
              options={state.options}
               series={state.series} 
