@@ -10,15 +10,15 @@ const Branches = () => {
                 name: 'Desktops',
                 data: [
                     {
-                        x: 'ABC',
+                        x: 'Jatrabari',
                         y: 10
                     },
                     {
-                        x: 'DEF',
+                        x: 'Wari',
                         y: 60
                     },
                     {
-                        x: 'XYZ',
+                        x: 'Banani',
                         y: 41
                     }
                 ]
@@ -27,27 +27,27 @@ const Branches = () => {
                 name: 'Mobile',
                 data: [
                     {
-                        x: 'ABCD',
+                        x: 'Farmget',
                         y: 10
                     },
                     {
-                        x: 'DEFG',
+                        x: 'Kalshi',
                         y: 20
                     },
                     {
-                        x: 'WXYZ',
+                        x: 'Jamuna future Park',
                         y: 51
                     },
                     {
-                        x: 'PQR',
+                        x: 'Tejgaon',
                         y: 30
                     },
                     {
-                        x: 'MNO',
+                        x: 'Mohakhali DOHS',
                         y: 20
                     },
                     {
-                        x: 'CDE',
+                        x: 'ECB',
                         y: 30
                     }
                 ]
