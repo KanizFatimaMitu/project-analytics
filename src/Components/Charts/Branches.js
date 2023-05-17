@@ -70,7 +70,7 @@ const Branches = () => {
         <div>
              <div className='flex justify-center items-center mt-4 ml-4'>
                 <span className='mr-2 text-success-content'> <FontAwesomeIcon icon={faHomeAlt} /></span>
-                <h1 className='font-bold text-xl text-success-content'>Audience Growth</h1>
+                <h1 className='font-bold text-xl text-success-content'>Our All Branches</h1>
             </div>
             <ReactApexChart
             options={state.options} 
