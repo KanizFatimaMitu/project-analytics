@@ -1,5 +1,7 @@
 import React from 'react';
 import Polar from '../Charts/Polar';
+import Polar2 from '../Charts/Polar2';
+import Polar3 from '../Charts/Polar3';
 
 const AnalyticsSideBar = () => {
     return (
@@ -11,12 +13,12 @@ const AnalyticsSideBar = () => {
             </div>
             <div class="card shadow-xl">
                 <div class="card-body items-center text-center">
-                   <Polar></Polar>
+                 <Polar2></Polar2>
                 </div>
             </div>
             <div class="card shadow-xl">
                 <div class="card-body items-center text-center">
-                   <Polar></Polar>
+                  <Polar3></Polar3>
                 </div>
             </div>
            

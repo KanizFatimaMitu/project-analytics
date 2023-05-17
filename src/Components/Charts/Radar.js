@@ -47,7 +47,7 @@ const Radar = () => {
              options={state.options} 
              series={state.series}
              type="radar"
-             height={300} />
+             height={200} />
         </div>
     );
 };
