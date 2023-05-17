@@ -7,7 +7,7 @@ const Analytics = () => {
     return (
         <div className='appGlass'>
             <SidebarMenu></SidebarMenu>
-          <AnalyticsTable></AnalyticsTable>
+            <AnalyticsTable></AnalyticsTable>
         </div>
     );
 };
