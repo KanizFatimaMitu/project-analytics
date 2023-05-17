@@ -22,13 +22,13 @@ const Exist = () => {
                         <div class="card-body">
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text text-primary-content">Email</span>
+                                    <span class="label-text text-primary-content">Email <small>*</small></span>
                                 </label>
                                 <input type="text" placeholder="email" class="input input-bordered" />
                             </div>
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text text-primary-content">Password</span>
+                                    <span class="label-text text-primary-content">Password <small>*</small></span>
                                 </label>
                                 <input type="text" placeholder="password" class="input input-bordered" />
                                 <label class="label">
